@@ -200,6 +200,11 @@ img {
 	margin-bottom: 20px;
 }
 
+.footer p a {
+	text-decoration: none;
+	color: #555;
+}
+
 .footer .social-icons li {
 	display: inline;
 }
