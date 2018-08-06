@@ -466,8 +466,14 @@ img {
 }
 
 @media (max-width: 900px) {
-	.work-panel h3, .work-panel p, .work-panel .view-more, .work-panel:after {
+	.work-panel p, .work-panel .view-more, .work-panel:after {
 		display: none;
+	}
+
+	.work-panel h3 {
+		font-size: 2rem;
+		top: 25px;
+		left: 30px;
 	}
 }
 
@@ -525,6 +531,10 @@ img {
 
 	.work-panel:nth-child(1), .work-panel:nth-child(3) {
 		margin-right: 0;
+	}
+
+	.work-panel h3 {
+		font-size: 1.8rem;
 	}
 
 	.hero h2 {
