@@ -378,9 +378,8 @@ p.lead {
 	opacity: 1;
 }
 
-.work-info:not(.hsl .work-info) p {
+.work-info p {
 	max-width: 290px;
-	margin-bottom: 0;
 }
 
 .about-content {
