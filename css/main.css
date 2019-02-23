@@ -120,7 +120,7 @@ body {
 }
 
 .no-margin {
-	margin: 0;
+	margin: 0 !important;
 }
 
 b, strong {
@@ -442,6 +442,15 @@ p.lead {
 	transform: translate3d(0,6px,0);
 }
 
+.hsl-themes .row p {
+	margin-bottom: 4rem;
+}
+
+.hsl-themes img {
+	display: inline-block;
+	vertical-align: -3px;
+}
+
 @media (max-width: 1015px) {
 	.navbar {
 		padding-right: 20px;
@@ -462,6 +471,10 @@ p.lead {
 }
 
 @media (max-width: 550px) {
+
+	.hsl-themes img {
+		margin-bottom: 2rem;
+	}
 
 	body:before {
 		position: fixed;
