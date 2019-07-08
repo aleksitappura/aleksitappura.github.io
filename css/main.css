@@ -299,13 +299,11 @@ p.lead {
 	bottom: 0;
 	background: #2f89fc;
 	opacity: 0;
-	transform: translate3d(-100%, 0, 0);
-	transition: transform 0.2s ease-in-out, opacity 0.3s ease-in-out;
+	transition: opacity 0.15s ease-in-out;
 }
 
 .work-panel:hover:after {
 	opacity: 0.95;
-	transform: translate3d(0, 0, 0);
 }
 
 .work-panel:hover p {
