@@ -597,7 +597,7 @@ p.lead {
 		padding-left: 20px;
 	}
 
-	.whim .work-info .five.columns:first-child ul {
+	.whim .work-info .five.columns:first-child ul, .hsl .work-info .five.columns:first-child ul {
 		margin-bottom: 0;
 	}
 }
