@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-	$('body').removeClass('fade-out');
-
 	$('.view-prototype').click(function(event) {
 		$(this).modal({
 		fadeDuration: 200
