@@ -23,10 +23,4 @@ $(document).ready(function() {
 			$('.nav-toggle').toggleClass('open');
 	    }
 	});
-
-	// Add active class to clicked link
-	$('.nav li a').click(function(event) {
-		$('.nav li a').removeClass('active');
-		$(this).addClass('active');
-	}
 });
