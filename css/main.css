@@ -109,6 +109,15 @@
 
 body {
 	-webkit-font-smoothing: antialiased;
+	opacity: 1;
+	transition: 1s opacity, 0.5s transform;
+	transform: none;
+}
+
+body.fade-out {
+	opacity: 0;
+	transform: translate3d(0,-50px,0);
+	transition: none;
 }
 
 .work-header {
