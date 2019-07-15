@@ -449,6 +449,15 @@ p.lead {
 	vertical-align: -3px;
 }
 
+.transition-fade {
+	transition: 0.4s;
+	opacity: 1;
+}
+
+html.is-animating .transition-fade {
+	opacity: 0;
+}
+
 @media (max-width: 1015px) {
 	.navbar {
 		padding-right: 20px;

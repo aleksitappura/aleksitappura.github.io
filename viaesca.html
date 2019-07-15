@@ -1,43 +1,45 @@
 <!doctype html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Via Esca &ndash; Aleksi Tappura</title>
-        <meta name="description" content="Digital Product Designer from Helsinki, Finland.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Via Esca &ndash; Aleksi Tappura</title>
+    <meta name="description" content="Digital Product Designer from Helsinki, Finland.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-        <link rel="manifest" href="/manifest.json">
-        <meta name="theme-color" content="#2f89fc">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#2f89fc">
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/font.css">
-        <link rel="stylesheet" href="css/skeleton.css">
-        <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/main.css">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132424773-2"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132424773-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-          gtag('config', 'UA-132424773-2');
-        </script>
-    </head>
-    <body>
+      gtag('config', 'UA-132424773-2');
+  </script>
+</head>
+<body>
 
-        <nav class="navbar clearfix">
-            <h1 class="logo"><a href="/">Aleksi Tappura</a></h1>
-            <ul class="nav">
-                <li><a href="/">Work</a></li>
-                <li><a href="/about">About me</a></li>
-            </ul>
-            <a class="nav-toggle" href="javascript:void(0)"><span class="nav-icon"></span></a>
-        </nav>
+    <nav class="navbar clearfix">
+        <h1 class="logo"><a href="/">Aleksi Tappura</a></h1>
+        <ul class="nav">
+            <li><a href="/">Work</a></li>
+            <li><a href="/about">About me</a></li>
+        </ul>
+        <a class="nav-toggle" href="javascript:void(0)"><span class="nav-icon"></span></a>
+    </nav>
+
+    <div class="wrapper transition-fade" id="swup">
 
         <section class="work-header">
             <div class="container">
@@ -159,7 +161,14 @@
             </div>
         </footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        const swup = new Swup();
+    </script>
+</body>
 </html>
