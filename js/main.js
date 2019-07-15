@@ -12,4 +12,10 @@ $(document).ready(function() {
 		$('.navbar').toggleClass('open');
 		$(this).toggleClass('open');
 	});
+
+	$('.nav li a').click(function(event) {
+		$('.nav').slideToggle(200);
+		$('.navbar').toggleClass('open');
+		$('.nav-toggle').toggleClass('open');
+	});
 });
