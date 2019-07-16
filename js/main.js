@@ -2,7 +2,10 @@ $(document).ready(function() {
 
 	// Page transitions
 	const swup = new Swup({
-	  plugins: [new SwupScrollPlugin()]
+	  plugins: [
+	  	new SwupScrollPlugin(),
+	  	new SwupBodyClassPlugin()
+	  ]
 	});
 
 	// Open video modal
