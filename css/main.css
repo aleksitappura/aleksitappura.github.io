@@ -559,6 +559,10 @@ html.is-animating .transition-fade {
 		font-size: 1.8rem;
 	}
 
+	.work-panel:hover h3 {
+		color: #333;
+	}
+
 	.hero h2 {
 		font-size: 2.7rem;
 	}
