@@ -1,10 +1,9 @@
 $(document).ready(function() {
 
 	// Page transitions
-	let options = {
-		scroll: true,
-		animateHistoryBrowsing: false
-	}
+	const options = {
+		animateHistoryBrowsing: true
+	};
 
 	const swup = new Swup(options);
 
