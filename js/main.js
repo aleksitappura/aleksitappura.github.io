@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	// Page transitions
 	const options = {
-		animateHistoryBrowsing: true
+		plugins: [new ScrollPlugin()]
 	};
 
 	const swup = new Swup(options);
