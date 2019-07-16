@@ -459,6 +459,7 @@ html.is-animating .transition-fade {
 }
 
 .ratio-box {
+	background-color: #EEE;
 	position: relative;
 	height: 0;
 	display: block;
