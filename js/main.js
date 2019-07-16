@@ -1,11 +1,9 @@
 $(document).ready(function() {
 
 	// Page transitions
-	const options = {
-		plugins: [new ScrollPlugin()]
-	};
-
-	const swup = new Swup(options);
+	const swup = new Swup({
+	  plugins: [new SwupScrollPlugin()]
+	});
 
 	// Open video modal
 	$('.view-prototype').click(function(event) {
