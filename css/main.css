@@ -452,10 +452,12 @@ p.lead {
 .transition-fade {
 	transition: 0.4s;
 	opacity: 1;
+	transform: translate3d(0);
 }
 
 html.is-animating .transition-fade {
 	opacity: 0;
+	transform: translate3d(0,100px,0);
 }
 
 .ratio-box {
