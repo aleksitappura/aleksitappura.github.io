@@ -450,7 +450,7 @@ p.lead {
 }
 
 .transition-fade {
-	transition: 0.4s;
+	transition: 0.4s opacity;
 	opacity: 1;
 }
 
