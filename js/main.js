@@ -1,10 +1,36 @@
 $(document).ready(function() {
 
+	// Page transitions
+  let options = {
+    LINK_SELECTOR: 'a[href^="' + window.location.origin + '"]:not([data-no-swup]), a[href^="./"]:not([data-no-swup]), a[href^="#"]:not([data-no-swup])',
+    FORM_SELECTOR: 'form[data-swup-form]',
+    elements: [
+      '#swup'
+    ],
+    animationSelector: '[class*="transition-"]',
+    cache: true,
+    pageClassPrefix: '',
+    scroll: true,
+    debugMode: true,
+    preload: true,
+    support: true,
+    skipPopStateHandling: function (event) {
+      if (event.state && event.state.source == "swup") {
+        return false;
+      }
+      return true;
+    },
+    animateHistoryBrowsing: false,
+  }
+  const swup = new Swup(options);
+
+	const swup = new Swup(options);
+
 	// Open video modal
 	$('.view-prototype').click(function(event) {
 		$(this).modal({
-		fadeDuration: 200
-	});
+			fadeDuration: 200
+		});
 		return false;
 	});
 
@@ -21,6 +47,6 @@ $(document).ready(function() {
 			$('.nav').slideToggle(200);
 			$('.navbar').toggleClass('open');
 			$('.nav-toggle').toggleClass('open');
-	    }
+		}
 	});
 });
