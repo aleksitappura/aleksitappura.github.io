@@ -111,6 +111,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+.home .nav li:first-child a {
+	font-weight: 600;
+}
+
+.about .nav li:last-child a {
+	font-weight: 600;
+}
+
 .work-header {
 	padding: 105px 0 42px;
 }
