@@ -112,10 +112,12 @@ body {
 }
 
 .home .nav li:first-child a {
+	color: #333;
 	font-weight: 600;
 }
 
 .about .nav li:last-child a {
+	color: #333;
 	font-weight: 600;
 }
 
