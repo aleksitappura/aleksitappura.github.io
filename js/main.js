@@ -38,8 +38,8 @@ $(document).ready(function() {
 
 		var $form = $(this);
 		$.post($form.attr('action'), $form.serialize()).then(function() {
-			$('#contact-form').fadeOut();
-			$('.about-content .twelve.columns').append('<p>Message sent!</p>')
+			$form.append('<p>Message sent!<p>');
+			$form[0].reset();
 		});
 	});
 });
