@@ -491,14 +491,6 @@ html.is-animating .transition-fade {
 	display: block;
 }
 
-.required-label {
-	color: #666;
-}
-
-.message-sent {
-	font-weight: 600;
-}
-
 @media (max-width: 1015px) {
 	.navbar {
 		padding-right: 20px;

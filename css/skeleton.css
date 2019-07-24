@@ -176,9 +176,11 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 16px;
+  font-size: 11px;
   font-weight: 600;
   line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
@@ -205,8 +207,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #2f89fc;
-  border-color: #2f89fc; }
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -218,8 +220,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #205FAF;
-  border-color: #205FAF; }
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
 
 
 /* Forms
@@ -233,7 +235,6 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  font-size: 1.6rem;
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
@@ -254,7 +255,7 @@ textarea {
      -moz-appearance: none;
           appearance: none; }
 textarea {
-  min-height: 120px;
+  min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px; }
 input[type="email"]:focus,
@@ -266,13 +267,12 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  border: 1px solid #2f89fc;
+  border: 1px solid #33C3F0;
   outline: 0; }
 label,
 legend {
   display: block;
   margin-bottom: .5rem;
-  font-size: 1.6rem;
   font-weight: 600; }
 fieldset {
   padding: 0;
