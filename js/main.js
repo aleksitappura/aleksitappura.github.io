@@ -38,8 +38,9 @@ $(document).ready(function() {
 
 		var $form = $(this);
 		$.post($form.attr('action'), $form.serialize()).then(function() {
-			$form.append('<p>Message sent!<p>');
+			$form.append('<p class="message-sent">Message sent!<p>');
 			$form[0].reset();
+			$form.find('.button-primary').blur();
 		});
 	});
 });
