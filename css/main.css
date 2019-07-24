@@ -268,11 +268,23 @@ p.lead {
 }
 
 .work-cta {
-	padding: 90px 0 105px;
+	margin: 120px 0 90px;
+	padding: 150px 0 125px;
+	background-color: #173753;
+	color: #FFF;
+}
+
+.work-cta a {
+	color: #97C4FD;
 }
 
 .work-cta h3 {
 
+}
+
+.available-cta {
+	padding: 90px 0 105px;
+	background-color: #EEE;
 }
 
 .hero {
@@ -549,8 +561,8 @@ html.is-animating .transition-fade {
 	}
 
 	.work-cta {
-		padding-top: 40px;
-		padding-bottom: 65px;
+		padding: 90px 0 70px;
+		margin: 40px 0 50px;
 	}
 
 	.work-info p {
