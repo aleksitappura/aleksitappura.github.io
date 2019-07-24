@@ -38,7 +38,8 @@ $(document).ready(function() {
 
 		var $form = $(this);
 		$.post($form.attr('action'), $form.serialize()).then(function() {
-			alert('Thank you!');
+			$(this).fadeOut();
+			('.about-content .twelve.columns').append('<p>Message sent!</p>')
 		});
 	});
 });
