@@ -495,7 +495,6 @@ html.is-animating .transition-fade {
 .message-sent {
 	font-size: 1.6rem;
 	font-weight: 600;
-	color: #43a047;
 }
 
 @media (max-width: 1015px) {
