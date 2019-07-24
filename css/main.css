@@ -111,7 +111,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-.home .nav li:first-child a {
+/* .home .nav li:first-child a {
 	color: #333;
 	font-weight: 600;
 }
@@ -120,6 +120,8 @@ body {
 	color: #333;
 	font-weight: 600;
 }
+
+*/
 
 .work-header {
 	padding: 105px 0 42px;
@@ -484,6 +486,10 @@ html.is-animating .transition-fade {
 	width: 100%;
 	height: 100%;
 	display: block;
+}
+
+.required-label {
+	color: #666;
 }
 
 @media (max-width: 1015px) {

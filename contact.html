@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>About &ndash; Aleksi Tappura</title>
+    <title>Contact &ndash; Aleksi Tappura</title>
     <meta name="description" content="Digital Product Designer from Helsinki, Finland.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,37 +41,27 @@
             <div class="container">
                 <div class="row">
                     <div class="twelve columns">
-                        <div class="ratio-box image" style="padding-bottom: 66.66%">
-                            <img class="lazyload" data-src="images/about-2.jpg" src="images/blurred/about-2.jpg">
-                        </div>
-                        <h2>About me</h2>
-                        <p class="lead">Hello! I'm Aleksi Tappura, a designer focused on digital product design and visual design. I'm always looking for new and exciting opportunities, so don't hesitate to get in touch via <a href="mailto:hello@aleksitappura.com">email</a>. At this time, I'm particularly interested in all things related to mobility.</p>
-                        <p class="lead">You can follow me on <a href="https://twitter.com/aleksitappura" target="_blank">Twitter</a>, <a href="https://dribbble.com/aleksitappura" target="_blank">Dribbble</a>, <a href="https://www.linkedin.com/in/aleksitappura" target="_blank">LinkedIn</a>, or reach out via email - <a href="mailto:hello@aleksitappura.com">hello@aleksitappura.com</a>.</p>
+                        <h2>Contact me</h2>
+                        <p>If you’re interested in hearing more about the services I provide, and how I can help you, please get in touch with the form below. I'll get back to you as soon as possible.</p>
                         <hr>
-                        <h3>Companies I've worked with</h3>
-                        <p>Aalto University, AppDynamics, City of Helsinki, Fjuul, Helsinki Regional Transport Authority, HappySignals, Helsinki Design Week, M4ID, Maas Global (Whim), Ministry of Defence of Finland, OP, Okta, Paddle, Reima, ResQ, Suunto, TCC Global, Terveystalo, The Finnish Defence Forces, Transcriptic, Yle, Via Esca, Wolt, xMatters and more.</p>
-                        <hr>
-                        <h3>Work experience</h3>
-                        <p>
-                            <i>2018 &ndash; Present</i><br>
-                            <b>Futurice</b><br>
-                            UI/UX Designer
-                        </p>
-                        <p>
-                            <i>2015 &ndash; Present</i><br>
-                            <b>Aleksi Tappura</b><br>
-                            Freelance Designer
-                        </p>
-                        <p>
-                            <i>2016 &ndash; 2018</i><br>
-                            <b>Kallan &amp; Co</b><br>
-                            Junior Designer
-                        </p>
-                        <p>
-                            <i>2017 &ndash; 2018</i><br>
-                            <b>The Finnish Defence Forces</b><br>
-                            Graphic Designer
-                        </p>
+
+                        <form role="form" name="contact-form" method="POST" action="sent" netlify>
+                            <label for="name">Name*</label>
+                            <input class="u-full-width" type="text" placeholder="Your name" id="name" name="name" required>
+
+                            <label for="email">Email*</label>
+                            <input class="u-full-width" type="email" placeholder="Your email" id="email" name="email" required>
+
+                            <label for="company">Company</label>
+                            <input class="u-full-width" type="text" placeholder="Company name" id="company" name="company">
+
+                            <label for="message">Message*</label>
+                            <textarea class="u-full-width" placeholder="Message" id="message" name="message" required></textarea>
+
+                            <small class="u-pull-right required-label">* Required field</small>
+                            <input class="button-primary" type="submit" id="submit" name="submit" value="Submit">
+                        </form>
+
                     </div>
                 </div>
             </div>
