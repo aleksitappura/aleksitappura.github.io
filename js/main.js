@@ -4,7 +4,8 @@ $(document).ready(function() {
 	const swup = new Swup({
 	  plugins: [
 	  	new SwupScrollPlugin(),
-	  	new SwupBodyClassPlugin()
+	  	new SwupBodyClassPlugin(),
+	  	new SwupScriptsPlugin()
 	  ]
 	});
 
