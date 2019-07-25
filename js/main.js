@@ -4,7 +4,8 @@ $(document).ready(function() {
 	const swup = new Swup({
 	  plugins: [
 	  	new SwupScrollPlugin(),
-	  	new SwupBodyClassPlugin()
+	  	new SwupBodyClassPlugin(),
+	  	new SwupFormsPlugin()
 	  ]
 	});
 
@@ -37,7 +38,7 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		var $form = $(this);
-		$.post($form.serialize()).then(function() {
+		$.post($form.attr('action'), $form.serialize()).then(function() {
 			$form.append('<p class="message-sent">Message sent!<p>');
 			$form[0].reset();
 			$form.find('.button-primary').blur();
