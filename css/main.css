@@ -200,18 +200,34 @@ p.lead {
 }
 
 .footer {
-	padding-bottom: 65px;
+	padding: 31px 0 4px;
+	background-color: #333;
+}
+
+.home .footer, .about .footer, .contact .footer {
+    padding: 0 0 65px;
+    background-color: #FFF;
 }
 
 .footer p {
-	color: #555;
+	/* color: #555; */
+	color: #999;
 	font-size: 1.6rem;
 	margin-bottom: 20px;
 }
 
+.home .footer p, .about .footer p, .contact .footer p {
+    color: #555;
+}
+
 .footer p a {
 	text-decoration: none;
-	color: #555;
+	/* color: #555; */
+	color: #999;
+}
+
+.home .footer p a, .about .footer p a, .contact .footer p a {
+    color: #555;
 }
 
 .footer .social-icons li {
@@ -268,23 +284,27 @@ p.lead {
 }
 
 .work-cta {
-	margin: 120px 0 90px;
+	margin: 120px 0 0;
 	padding: 150px 0 125px;
-	background-color: #173753;
+	text-align: center;
+	background-color: #333;
 	color: #FFF;
+	border-bottom: 1px solid #444;
 }
 
-.work-cta a {
-	color: #97C4FD;
+.work-cta .button-primary {
+	box-shadow: 0 2px 16px 0 rgba(47,137,252,0.40);
+	border-radius: 24px;
+	height: 48px;
+	line-height: 48px;
+}
+
+.work-cta p {
+	color: #CCC;
 }
 
 .work-cta h3 {
-
-}
-
-.available-cta {
-	padding: 90px 0 105px;
-	background-color: #EEE;
+	margin-bottom: 1.5rem;
 }
 
 .hero {
@@ -551,6 +571,12 @@ html.is-animating .transition-fade {
 	}
 
 	.footer {
+		text-align: center;
+		padding: 32px 0 7px;
+	}
+
+	.home .footer, .about .footer, .contact .footer {
+		text-align: left;
 		padding-bottom: 35px;
 	}
 
@@ -565,8 +591,8 @@ html.is-animating .transition-fade {
 	}
 
 	.work-cta {
-		padding: 90px 0 70px;
-		margin: 40px 0 50px;
+		padding: 90px 0;
+		margin: 40px 0 0;
 	}
 
 	.work-info p {
@@ -665,5 +691,9 @@ html.is-animating .transition-fade {
 
 	p.lead {
 		font-size: 1.8rem;
+	}
+
+	.footer .social-icons {
+		float: none;
 	}
 }
