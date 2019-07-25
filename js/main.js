@@ -34,7 +34,6 @@ $(document).ready(function() {
 
 	// Form submission
 	$('#contact-form').submit(function(e) {
-		e.preventDefault();
 
 		var $form = $(this);
 		$.post($form.attr('action'), $form.serialize()).then(function() {
@@ -42,5 +41,7 @@ $(document).ready(function() {
 			$form[0].reset();
 			$form.find('.button-primary').blur();
 		});
+
+		return false;
 	});
 });
