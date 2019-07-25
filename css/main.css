@@ -647,7 +647,7 @@ html.is-animating .transition-fade {
 		width: 100%;
 		padding: 0 20px;
 		float: none;
-		background-color: rgba(255,255,255,0.95);
+		background-color: rgba(255,255,255,1);
 		border-bottom: 1px solid rgba(0,0,0,0.12);
 		line-height: 73px;
 	}
@@ -665,7 +665,7 @@ html.is-animating .transition-fade {
 
 	.navbar .nav li a {
 		display: block;
-		background-color: rgba(255,255,255,0.95);
+		background-color: rgba(255,255,255,1);
 		line-height: 60px;
 		padding: 0 20px;
 	}
