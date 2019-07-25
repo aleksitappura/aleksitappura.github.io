@@ -201,7 +201,7 @@ p.lead {
 
 .footer {
 	padding: 31px 0 4px;
-	background-color: #333;
+	background-color: #222;
 }
 
 .home .footer, .about .footer, .contact .footer {
@@ -287,9 +287,9 @@ p.lead {
 	margin: 120px 0 0;
 	padding: 150px 0 125px;
 	text-align: center;
-	background-color: #333;
+	background-color: #222;
 	color: #FFF;
-	border-bottom: 1px solid #444;
+	border-bottom: 1px solid #333;
 }
 
 .work-cta .button-primary {
