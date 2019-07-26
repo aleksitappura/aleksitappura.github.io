@@ -624,6 +624,14 @@ html.is-animating .transition-fade {
 		border-top: 1px solid #E1E1E1;
 	}
 
+	.services h2 {
+		margin-bottom: 2rem;
+	}
+
+	.custom-services {
+	    margin-top: 0;
+	}
+
 	.work-header {
 		padding-top: 161px;
 		padding-bottom: 44px;
