@@ -201,10 +201,10 @@ p.lead {
 
 .footer {
 	padding: 31px 0 4px;
-	background-color: #222;
+	background-color: #17223b;
 }
 
-.home .footer, .about .footer, .contact .footer {
+.about .footer, .contact .footer {
     padding: 0 0 65px;
     background-color: #FFF;
 }
@@ -216,7 +216,7 @@ p.lead {
 	margin-bottom: 20px;
 }
 
-.home .footer p, .about .footer p, .contact .footer p {
+.about .footer p, .contact .footer p {
     color: #555;
 }
 
@@ -226,7 +226,7 @@ p.lead {
 	color: #999;
 }
 
-.home .footer p a, .about .footer p a, .contact .footer p a {
+.about .footer p a, .contact .footer p a {
     color: #555;
 }
 
@@ -287,9 +287,9 @@ p.lead {
 	margin: 120px 0 0;
 	padding: 150px 0 150px;
 	text-align: center;
-	background-color: #222;
+	background-color: #17223b;
 	color: #FFF;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .work-cta .button-primary {
@@ -312,7 +312,7 @@ p.lead {
 }
 
 .hero h2 {
-	max-width: 700px;
+	max-width: 660px;
 	font-size: 3.2rem;
 	font-weight: 400;
 	line-height: 1.5;
@@ -323,7 +323,45 @@ p.lead {
 }
 
 .work {
-	padding-bottom: 120px;
+
+}
+
+.work .work-case {
+	margin-bottom: 91px;
+}
+
+.work .work-case:last-child {
+	margin-bottom: 151px;
+}
+
+.work .work-case h2 {
+	font-size: 2.4rem;
+}
+
+.work .work-case p {
+	margin: 0;
+}
+
+.work .work-case .view-more {
+	margin-top: 1rem;
+	font-weight: 600;
+}
+
+.work .case-texts {
+	padding: 50px 0 0;
+}
+
+.services {
+	padding: 147px 0 6px;
+	border-top: 1px solid #E1E1E1;
+}
+
+.services h2 {
+	margin-bottom: 29px;
+}
+
+.custom-services {
+	margin-top: 16px;
 }
 
 .work-panel {
@@ -569,6 +607,23 @@ html.is-animating .transition-fade {
 		padding-bottom: 70px;
 	}
 
+	.work .work-case {
+		margin-bottom: 72px;
+	}
+
+	.work .work-case:last-child {
+		margin-bottom: 2px;
+	}
+
+	.work .case-texts {
+		padding: 40px 0 0;
+	}
+
+	.services {
+		padding: 69px 0 6px;
+		border-top: 1px solid #E1E1E1;
+	}
+
 	.work-header {
 		padding-top: 161px;
 		padding-bottom: 44px;
@@ -579,7 +634,7 @@ html.is-animating .transition-fade {
 		padding: 32px 0 7px;
 	}
 
-	.home .footer, .about .footer, .contact .footer {
+	.about .footer, .contact .footer {
 		text-align: left;
 		padding-bottom: 35px;
 	}
@@ -675,7 +730,7 @@ html.is-animating .transition-fade {
 		border-bottom: 1px solid #E1E1E1;
 	}
 
-	.home .hero, .home .work, .home .footer {
+	.home .hero, .home .work .case-texts, .home .services {
 		padding-right: 20px;
 		padding-left: 20px;
 	}
@@ -689,7 +744,7 @@ html.is-animating .transition-fade {
 		padding-left: 20px;
 	}
 
-	.whim .work-info .five.columns:first-child ul, .hsl .work-info .five.columns:first-child ul {
+	.whim .work-info .five.columns:first-child ul, .hsl .work-info .five.columns:first-child ul, .services .six.columns:first-child ul {
 		margin-bottom: 0;
 	}
 
