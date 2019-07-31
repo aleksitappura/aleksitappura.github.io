@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://aleksitappura.com/</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aleksitappura.com/about</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aleksitappura.com/contact</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aleksitappura.com/hsl</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aleksitappura.com/whim</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aleksitappura.com/happysignals</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aleksitappura.com/viaesca</loc>
+  <lastmod>2019-07-31T08:09:34+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
