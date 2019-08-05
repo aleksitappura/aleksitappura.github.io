@@ -201,7 +201,7 @@ p.lead {
 
 .footer {
 	padding: 31px 0 4px;
-	background-color: #17223b;
+	background-color: #E6E9F3;
 }
 
 .about .footer, .contact .footer {
@@ -286,21 +286,23 @@ p.lead {
 .work-cta {
 	margin: 120px 0 0;
 	padding: 150px 0 150px;
-	text-align: center;
-	background-color: #17223b;
-	color: #FFF;
-	border-bottom: 1px solid rgba(255,255,255,0.1);
+	text-align: left;
+	background-color: #E6E9F3;
+	background-image: url('../images/cta-bg.svg');
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .work-cta .button-primary {
-	box-shadow: 0 2px 16px 0 rgba(47,137,252,0.40);
 	border-radius: 24px;
 	height: 48px;
 	line-height: 48px;
 }
 
 .work-cta p {
-	color: #CCC;
+	color: #666;
 }
 
 .work-cta h3 {
@@ -569,10 +571,28 @@ html.is-animating .transition-fade {
 	margin-bottom: 2rem;
 }
 
+@media (max-width: 1600px) {
+	.work-cta {
+		background-size: 50%;
+	}
+}
+
+@media (max-width: 1240px) {
+	.work-cta {
+		background-size: 60%;
+		background-position: 125% 50%;
+	}
+}
+
 @media (max-width: 1015px) {
 	.navbar {
 		padding-right: 20px;
 		padding-left: 20px;
+	}
+
+	.work-cta {
+		background-position: 150% 50%;
+		background-size: 70%;
 	}
 }
 
@@ -585,6 +605,11 @@ html.is-animating .transition-fade {
 		font-size: 2rem;
 		top: 28px;
 		left: 30px;
+	}
+
+	.work-cta {
+		background-image: none;
+		text-align: center;
 	}
 }
 
