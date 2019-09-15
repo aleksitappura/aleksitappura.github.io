@@ -204,7 +204,7 @@ p.lead {
 	background-color: #17223b;
 }
 
-.about .footer, .contact .footer {
+.about .footer, .contact .footer, .card .footer {
     padding: 0 0 65px;
     background-color: #FFF;
 }
@@ -216,7 +216,7 @@ p.lead {
 	margin-bottom: 20px;
 }
 
-.about .footer p, .contact .footer p {
+.about .footer p, .contact .footer p, .card .footer p {
     color: #555;
 }
 
@@ -226,7 +226,7 @@ p.lead {
 	color: #999;
 }
 
-.about .footer p a, .contact .footer p a {
+.about .footer p a, .contact .footer p a, .card .footer p a {
     color: #555;
 }
 
@@ -642,7 +642,7 @@ html.is-animating .transition-fade {
 		padding: 32px 0 7px;
 	}
 
-	.about .footer, .contact .footer {
+	.about .footer, .contact .footer, .card .footer {
 		text-align: left;
 		padding-bottom: 35px;
 	}
